@@ -1,0 +1,34 @@
+{
+  "name": "KTVCocoaHTTPServer",
+  "version": "1.0.0",
+  "summary": "CocoaHTTPServer for KTV.",
+  "homepage": "https://github.com/ChangbaDevs/KTVCocoaHTTPServer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Single": "libobjc@gmail.com"
+  },
+  "social_media_url": "https://weibo.com/3118550737",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/ChangbaDevs/KTVCocoaHTTPServer.git",
+    "tag": "1.0.0"
+  },
+  "frameworks": "Foundation",
+  "requires_arc": true,
+  "static_framework": true,
+  "dependencies": {
+    "CocoaAsyncSocket": [
+      "7.6.5"
+    ]
+  },
+  "vendored_frameworks": "KTVCocoaHTTPServer.xcframework",
+  "ios": {
+    "public_header_files": "KTVCocoaHTTPServer.xcframework/ios-arm64/*/Headers/*.h",
+    "source_files": "KTVCocoaHTTPServer.xcframework/ios-arm64/*/Headers/*.h"
+  }
+}
